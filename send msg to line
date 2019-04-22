@@ -8,7 +8,7 @@ from linebot.exceptions import (InvalidSignatureError)
 from linebot.models import (MessageEvent, TextMessage, TextSendMessage)
 
 # token 改成你自己的，底下的案例是設到環境變數
-#token = os.environ["LINE_TEST_TOKEN"]
+# token = os.environ["LINE_TEST_TOKEN"]
 # 這是放明碼，不建議，以免不小心就 push 到 github 上了
 # 未來道具實驗室
 
